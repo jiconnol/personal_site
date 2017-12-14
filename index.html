@@ -1,23 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+  /*Global Styles*/
+  html {
+    font-size: 18px
+  }
+  p a {
+    color: red;
+  }
+  /*Hero Styles*/
+  .hero {
+  background-color: rgba(255, 0, 0, 0.5);
+  text-align: center;
+  padding: 50px;
+  color: green;
+  height: 25vh;
+  }
+/*Class Styles*/
+  .image {
+  text-align: center;
+  }
+  .content {
+  text-align: center;
+  border: 2px solid black;
+  color: blue;
+  font-size: 2rem;
+}
+</style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-<title>Family Blog</title>
+<title>My Blog</title>
 </head>
-
-
 <body>
-  <div class="container">
-  <div class="jumbotron">
+  <div class="hero">
   <h1>Welcome Connolly Clan!</h1>
-</div>
-  <img src="images/connolly-coat-of-arms.jpg">
+  </div>
+  <div class="image">
+    <a href="https://www.learnenough.com/css-and-layout-tutorial-tutorial/css/box">
+    <img src="images/connolly-coat-of-arms.jpg">
+    </a>
+  </div>
+  <div class="content">
   <p>
     This page is to create a family blog for all things interesting to us. Follow this link to see if the test blog works:
     <a href="test-blog.html">Test Blog</a>
   </p>
+</div>
 
 </body>
 </html>
